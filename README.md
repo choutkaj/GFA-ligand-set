@@ -10,8 +10,7 @@ The GFA ligand set is also available at Zenodo:
 # Composition of the ligand set
 
 
-
-Series | No of compounds | No of Gal-1 affinities | No of Gal-3 affinities 
+Series | No. of compounds | No. of Gal-1 affinities | No. of Gal-3 affinities 
 --- | --- | --- | --- 
 (Het)aryl-*C*-galactosides | 188 | 130 | 188
 Alpha-thiogalactosides | 465 | 275 | 465
@@ -28,12 +27,10 @@ Thiodisaccharide derivatives | 109 | 87 | 115
 # Affinities
 
 Here is the distribution of the affinities towards Gal-3:
-
-<img src="https://github.com/user-attachments/assets/cc78df24-da2b-4de5-b12d-77655add2c1a" height="400">
+<img src="https://github.com/user-attachments/assets/a80fe860-f8ae-4a25-8bac-70b146e857ba" height="300">
 
 Here is the distribution of the affinities towards Gal-1:
-
-<img src="https://github.com/user-attachments/assets/acc573ea-12f5-4cd2-b84f-d6d70acd0309" height="400">
+<img src="https://github.com/user-attachments/assets/769e5730-f661-48bc-9f06-1a5fb7626918" height="300">
 
 
 
