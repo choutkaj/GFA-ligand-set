@@ -36,5 +36,6 @@ Here is the distribution of the affinities towards Gal-1:
 
 # Geometries
 
+In the folder "geometries", several rar files are provided which contain the ligand poses in the SDF format (V2000). First, geometries obtained by Glide SP docking into 5H9P structure of Gal-3 are provided. For some ligands, there is more than one ionization/tautomeric state. There are 10 docked poses for each ligand state. We also provide geometries that were obtained by optimizing the docked poses using three different methods. These optimizations were all carried out with a frozen protein. The structures of the full protein and its truncated version are provided as pdb files. The details of the docking procedure and the pose optimizations are provided in the paper mentioned above.
 
 # Citing
