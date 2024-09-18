@@ -2,6 +2,8 @@
 
 This repository contains the Galectin Fluorescence Anisotropy ligand set. This set comprises 1022 unique ligands with known Kd values against Galectin-1 and -3 collected from literature and patents. All the Kd values were measured by a single assay - fluorescence anisotropy (fluorescence polarization) assay. The set is categorized into several subsets based on structure and binding mode. Basic physicochemical properties are provided. The repository also contains docked poses in Galectin-3 (5H9P) as well as poses optimized with frozen protein at various levels of theory.
 
+The GFA ligand set is included in a paper that has recently been submitted. 
+
 <!-- The GFA ligand set was published in the following paper: -->
 
 
@@ -41,8 +43,11 @@ Distribution of the affinities towards Gal-1:
 
 # Geometries
 
-In the folder "geometries", several rar files are provided which contain the ligand poses in the SDF format (V2000). First, geometries obtained by Glide SP docking into 5H9P structure of Gal-3 are provided. For some ligands, there is more than one ionization/tautomeric state. There are 10 docked poses for each ligand state. We also provide geometries that were obtained by optimizing the docked poses using three different methods. These optimizations were all carried out with a frozen protein. The structures of the full protein and its truncated version are provided as PDB files. The details of the docking procedure and the pose optimizations are provided in the above-mentioned paper
+In the folder "geometries", several rar files are provided with the ligand poses in the SDF format (V2000). First, geometries obtained by Glide SP docking into 5H9P structure of Gal-3 are provided. For some ligands, there is more than one ionization/tautomeric state. There are 10 docked poses for each ligand state. We also provide geometries that were obtained by optimizing the docked poses using three different methods (OPLS4/VSGB2.1, GFN-FF/ALPB, and GFN2/ALPB). These optimizations were all carried out with a frozen protein. The structures of the full protein and its truncated version are provided as PDB files. The details of the docking procedure and the pose optimizations are provided in the above-mentioned paper
 
 # Energies
-The folder "energies" contains binding enthalpies computed by several MM and SQM methods. The binding enthalpies are given for all the docked poses, and also for the best pose per ligand. See the above-mentioned paper for the details of these calculations.
+The folder "energies" contains binding enthalpies computed by several MM and SQM methods. The binding enthalpies are given for all the docked poses, and also for the best pose per ligand. See the above-mentioned paper for the details of how these values were calculated. The picture below shows an example of the GFA_8 ligand in Galectin-3. The ligand poses are colored according to the binding enthalpies calculated by DFTB3-D4/COSMO.
+
+<img src="https://github.com/user-attachments/assets/c8a60edc-98e7-45f5-a203-656706b1e322" height="500">
+
 
