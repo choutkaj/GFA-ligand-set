@@ -2,12 +2,9 @@
 
 This repository contains the Galectin Fluorescence Anisotropy ligand set. This set comprises 1022 unique ligands with known $K_d$ values against Galectin-1 and -3 collected from literature and patents. All the $K_d$ values were measured by a single assay - fluorescence anisotropy (fluorescence polarization) assay. The set is categorized into several subsets based on structure and binding mode. Basic physicochemical properties are provided. The repository also contains docked poses in Galectin-3 (5H9P) and poses optimized with frozen protein at various levels of theory.
 
-Paper coming soon... 
+Paper: coming soon... 
 
-<!-- The GFA ligand set was published in the following paper: -->
-
-
-The GFA ligand set is also available at Zenodo: [![DOI](https://zenodo.org/badge/853766036.svg)](https://doi.org/10.5281/zenodo.14585059)
+Zenodo: [![DOI](https://zenodo.org/badge/853766036.svg)](https://doi.org/10.5281/zenodo.14585059)
 
 
 
