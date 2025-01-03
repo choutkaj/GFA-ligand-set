@@ -28,14 +28,13 @@ Thiodisaccharide derivatives | 109 | 87 | 115
 
 # Affinities
 
-Distribution of the affinities towards Gal-3:
-
-<img src="https://github.com/user-attachments/assets/a80fe860-f8ae-4a25-8bac-70b146e857ba" height="300">
-
 Distribution of the affinities towards Gal-1:
 
 <img src="https://github.com/user-attachments/assets/769e5730-f661-48bc-9f06-1a5fb7626918" height="300">
 
+Distribution of the affinities towards Gal-3:
+
+<img src="https://github.com/user-attachments/assets/a80fe860-f8ae-4a25-8bac-70b146e857ba" height="300">
 
 
 # Geometries
