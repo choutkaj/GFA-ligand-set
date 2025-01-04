@@ -43,9 +43,12 @@ In the folder "geometries", several rar files are provided with the ligand poses
 
 # Energies
 
-The folder "energies" contains binding enthalpies ($\Delta H_{bind}$) and binding free energies ($\Delta G_{bind}$) computed by several MM and SQM methods. These quantities are given for all the docked poses and also for the best pose per ligand. The individual energy terms are also provided. See the above-mentioned paper for details on how these values were calculated. The picture below shows an example of the GFA_8 ligand in Galectin-3. The ligand poses are colored according to the relative $\Delta G_{bind}$ calculated by DFTB3-D4/COSMO.
+The folder "energies" contains binding enthalpies ($\Delta H_{bind}$) and binding free energies ($\Delta G_{bind}$) computed by several MM and SQM methods. These quantities are given for all the docked poses and also separately for the best pose per ligand. The individual energy terms are also provided. See the above-mentioned paper for details on how these values were calculated. The pictures below show examples of compounds GFA_4 (lactose) and GFA_8 (commercially known as GB0139) docked and scored in Galectin-3. The ligand poses (10 poses per ligand) are colored according to the relative $\Delta G_{bind}$ calculated by DFTB3-D4/COSMO. 
 
-<img src="https://github.com/user-attachments/assets/c8a60edc-98e7-45f5-a203-656706b1e322" height="500">
+<img src="https://github.com/user-attachments/assets/0f4e76f7-6594-4a62-8891-55ebea55b2ee" height="500">
+<img src="https://github.com/user-attachments/assets/72976dee-295e-415b-bdd9-a78f134bba05" height="500">
+
+
 
 # License
 
