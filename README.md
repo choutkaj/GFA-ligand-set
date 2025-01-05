@@ -27,6 +27,12 @@ Not a sugar | 1 | 1 | 1
 Thiodisaccharide derivatives | 109 | 87 | 115
 **Total** | **1022** | **645** | **1021**
 
+<br>
+Distribution of physicochemical properties in the GFA ligand set:
+
+<img src="https://github.com/user-attachments/assets/d84abb8b-5934-4b3d-a651-201d3f9f1145" height="230">
+
+
 
 
 # Affinities
