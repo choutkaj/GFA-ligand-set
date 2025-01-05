@@ -39,16 +39,16 @@ Distribution of physicochemical properties in the GFA ligand set:
 
 Distribution of the affinities towards Gal-1:
 
-<img src="https://github.com/user-attachments/assets/769e5730-f661-48bc-9f06-1a5fb7626918" height="300">
+<img src="https://github.com/user-attachments/assets/769e5730-f661-48bc-9f06-1a5fb7626918" height="280">
 
 Distribution of the affinities towards Gal-3:
 
-<img src="https://github.com/user-attachments/assets/a80fe860-f8ae-4a25-8bac-70b146e857ba" height="300">
+<img src="https://github.com/user-attachments/assets/a80fe860-f8ae-4a25-8bac-70b146e857ba" height="280">
 
 
 # Geometries
 
-In the folder `geometries`, several rar files are provided with the ligand poses in the SDF format (V2000). First, geometries obtained by Glide SP docking into 5H9P structure of Gal-3 are provided. For some ligands, there is more than one ionization/tautomeric state. There are 10 docked poses for each ligand state. We also provide geometries that were obtained by optimizing the docked poses using three different methods (OPLS4/VSGB2.1, GFN-FF/ALPB, and GFN2/ALPB). These optimizations were all carried out with a frozen protein. The structures of the full protein and its truncated versions (12Å and 6Å globules) are provided as PDB files. The details of the docking procedure and the pose optimizations are provided in the above-mentioned paper.
+The folder `geometries` contains several rar files with the ligand poses in the SDF format (V2000). First, geometries obtained by Glide SP docking into 5H9P structure of Gal-3 are provided. For some ligands, there is more than one ionization/tautomeric state. There are 10 docked poses for each ligand state. We also provide geometries that were obtained by optimizing the docked poses using three different methods (OPLS4/VSGB2.1, GFN-FF/ALPB, and GFN2/ALPB). These optimizations were all carried out with a frozen protein. The structures of the full protein and its truncated versions (12Å and 6Å globules) are provided as PDB files. The details of the docking procedure and the pose optimizations are provided in the above-mentioned paper.
 
 # Energies
 
@@ -57,6 +57,9 @@ The folder `energies` contains binding enthalpies ($\Delta H_{bind}$) and bindin
 <img src="https://github.com/user-attachments/assets/0f4e76f7-6594-4a62-8891-55ebea55b2ee" height="400">
 <img src="https://github.com/user-attachments/assets/72976dee-295e-415b-bdd9-a78f134bba05" height="400">
 
+# The Outlier
+
+During our investigation, we found that the compound GFA_250 (otherwise known as MG-257), was a significant outlier which scored much lower affinities than reported with all the methods that we tested. The compound has a reported $K_d$ = 0.15 ± 0.02 μM towards Galectin-3 measured by fluorescence anisotropy (see https://doi.org/10.1021/acsmedchemlett.0c00330). However, no crystal structure is known and it is unclear where this inhibitor actually binds (it does not even include a galactose moiety). Thus, it is unclear if this is a problem with our computational protocol which might not been able to capture the correct binding mode of this ligand, or with the reported experimental affinity. We keep this ligand in the set but highlight it here as a possible source of error.
 
 
 # License
